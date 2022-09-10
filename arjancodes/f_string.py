@@ -24,7 +24,9 @@ def main():
     print(f"Today is {today:%A, %B %d, %Y}")
     print(f"Today is {today:%x}")
     print(f"Today is {today:%X}")
-    
+    x = 45
+    y = 35
+    print(f"{x = } and {y = }")
     
 if __name__ == '__main__':
     main()
